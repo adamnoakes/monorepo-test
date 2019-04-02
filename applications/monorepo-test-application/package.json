@@ -1,6 +1,6 @@
 {
   "name": "@sky-uk-ott/monorepo-test-application",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "",
   "main": "lib",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sky-uk-ott/monorepo-test-library": "1.0.0"
+    "@sky-uk-ott/monorepo-test-library": "^1.0.1"
   },
   "devDependencies": {
     "typescript": "^3.4.1"
