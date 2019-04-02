@@ -1,0 +1,17 @@
+{
+  "name": "@sky-uk-ott/monorepo-test-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "prepare": "compile",
+    "postpack": "yarn modify-package restore"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.4.1"
+  }
+}

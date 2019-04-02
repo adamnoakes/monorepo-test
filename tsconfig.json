@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./node_modules", "../../node_modules"]
+    },
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*.ts", "node_modules/@types"],
+  "exclude": ["lib/.*", "coverage/.*", "**/__units__", "**/__mocks__", "node_modules"]
+}
