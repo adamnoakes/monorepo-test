@@ -8,8 +8,6 @@
     "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc",
-    "prepare": "compile",
-    "postpack": "yarn modify-package restore"
   },
   "author": "",
   "license": "ISC",
