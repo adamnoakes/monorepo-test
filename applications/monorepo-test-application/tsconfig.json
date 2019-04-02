@@ -7,6 +7,6 @@
     "src"
   ],
   "references": [
-    { "path": "../../libraries/monorepo-test-library" }
+    { "path": "../../libraries/monorepo-test-library/src" }
   ]
 }
