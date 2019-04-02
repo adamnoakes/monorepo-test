@@ -1,5 +1,3 @@
-import { a } from '@sky-uk-ott/monorepo-test-library';
-import { b } from '@sky-uk-ott/monorepo-test-library/lib/test/test';
+import { a, b } from '@sky-uk-ott/monorepo-test-library';
 
-console.log(a);
-console.log(b);
+console.log(a, b);

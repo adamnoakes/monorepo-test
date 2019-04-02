@@ -6,10 +6,8 @@
     "declaration": true,
     "baseUrl": ".",
     "paths": {
-      "*": ["./node_modules", "../../node_modules"]
+      "@sky-uk-ott/*": ["./libraries/*/src"]
     },
-    "skipDefaultLibCheck": true,
-    "skipLibCheck": true,
     "sourceMap": true
   },
   "include": ["src/**/*.ts", "node_modules/@types"],
