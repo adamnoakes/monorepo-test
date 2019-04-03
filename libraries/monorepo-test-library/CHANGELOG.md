@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/adamnoakes/monorepo-test/compare/@sky-uk-ott/monorepo-test-library@1.2.0...@sky-uk-ott/monorepo-test-library@2.0.0) (2019-04-03)
+
+
+### Features
+
+* test breaking change ([cfd756c](https://github.com/adamnoakes/monorepo-test/commit/cfd756c))
+
+
+### BREAKING CHANGES
+
+* breaking change message
+
+
+
+
+
 # [1.2.0](https://github.com/adamnoakes/monorepo-test/compare/@sky-uk-ott/monorepo-test-library@1.1.0...@sky-uk-ott/monorepo-test-library@1.2.0) (2019-04-03)
 
 
