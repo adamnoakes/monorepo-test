@@ -7,7 +7,8 @@
   "private": true,
   "scripts": {
     "prepublishOnly": "echo root",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postpublish": "echo root-post"
   },
   "workspaces": {
     "packages": [
