@@ -5,9 +5,10 @@
   "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "echo lib",
     "compile": "rm -rf lib && tsc -b ./src/tsconfig.json",
-    "postpublish": "echo lib-post",
+    "prepublishOnly": "json -I -f tsconfig.json -e 'this.compilerOptions.target=\"es5\"'",
+    "publish-libs": "lerna publish --no-commit-hooks;",
+    "postpublish": "json -I -f tsconfig.json -e 'this.compilerOptions.target=\"es6\"'",
     "prepare": "yarn compile"
   },
   "author": "",
