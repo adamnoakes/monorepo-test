@@ -15,5 +15,6 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.4.1"
-  }
+  },
+  "gitHead": "47b5930c286891c8a9d24abb997b27af8e45a665"
 }
